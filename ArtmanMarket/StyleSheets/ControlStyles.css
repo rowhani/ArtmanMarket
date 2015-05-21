@@ -1,0 +1,395 @@
+﻿/* Common */
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	background: url(../Images/Misc/Background.gif) repeat;
+}
+
+a
+{
+	text-decoration: none;
+	font-family: Tahoma;
+}
+
+input[type="text"], input[type="password"], select, textarea
+{
+	border-color: Lime;
+	border-width: 1px;
+	border-style: outset;
+}
+
+/* Product Overview Panel Styles */
+
+.productPanelTitle
+{
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 10pt;
+	color: #336699;
+}
+
+.productLogo
+{
+	float: left;
+	margin-left: 10px;
+}
+
+.productName
+{
+	line-height: 120%;
+	height: 2.4em;
+}
+
+.productPriceLabel
+{
+	font-weight: bold;
+	color: Black;
+	margin-top: 2px;
+}
+
+.productMinPrice
+{
+	color: green;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.productMaxPrice
+{
+	color: #3c5c9b;
+	font-size: 11px;
+}
+
+.pagerGoButton
+{
+	font-family: Tahoma;
+	background-color: #547EB4;
+	color: White;
+}
+
+/* Wait Panel Styles */
+
+#WaitPanelBackgroundFilter
+{
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	background-color: #000;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+	z-index: 1000;
+}
+
+#WaitPanelMessage
+{
+	position: fixed;
+	top: 30%;
+	left: 43%;
+	padding: 10px;
+	width: 14%;
+	z-index: 1001;
+	background-color: #fff;
+	border: solid 1px #000;
+}
+
+/* Login Panel Styles */
+
+.loginTable
+{
+	font-family: Tahoma;
+	font-size: 10pt;
+	width: 200px;
+	padding: 0px;
+	border-style: solid;
+	border-color: Silver;
+	border-width: 1px;
+	border-top-width: 0px;
+	direction: rtl;
+}
+
+/* Sign up Panel Styles */
+
+.signupTable
+{
+	font-family: Tahoma;
+	font-size: smaller;
+	vertical-align: middle;
+	text-align: right;
+	direction: rtl;
+	border-width: 0;
+}
+
+.collapsePanelHeader
+{
+	width: 100%;
+	height: 30px;
+	background-image: url(../Images/AjaxControlImages/bg-menu-main.png);
+	background-repeat: repeat-x;
+	color: #FFF;
+	font-weight: bold;
+}
+
+.collapsePanel
+{
+	border: inset 1px purple;
+	margin-left: 1px;
+	margin-right: -1px;
+	padding-right: 2px;
+}
+
+/* Image Browser Styles */
+
+#ImageBrowserBackgroundFilter
+{
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	background-color: #000;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+	z-index: 1000;
+}
+
+#ImageBrowserPanel
+{
+	position: fixed;
+	top: 5%;
+	left: 8%;
+	padding: 10px;
+	width: 80%;
+	z-index: 1001;
+	background-color: #fff;
+	border: solid 2px #000;
+}
+
+.disabledImageButton
+{
+	cursor: default;
+	opacity: 0.35;
+	filter: alpha(opacity=35);
+	zoom: 1;
+}
+
+.dynamicMenu
+{
+	z-index: 100;
+}
+
+/*Ticker Styles*/
+
+#theTicker
+{
+	height: 1.5em;
+}
+
+#theTicker a
+{
+	color: Purple;
+	font-weight: bold;
+	display: block;
+	font-size: small;
+}
+
+/*master page header*/
+
+#header
+{
+	width: 970px;
+	background-position: center top;
+	background-image: url(../Images/Master/HeaderBGRepeater.gif);
+	background-repeat: repeat-x;
+	height: 112px;
+	text-align: center;
+	margin: 0 auto;
+}
+#headerLeft
+{
+	width: 235px;
+	height: 112px;
+	float: left;
+	text-align: center;
+	margin-left: 0px;
+	margin-top: 11px;
+}
+#headerCenter
+{
+	width: 495px;
+	vertical-align: bottom;
+	height: 112px;
+	float: left;
+	margin-top: 15px;
+}
+#headerRight
+{
+	width: 235px;
+	vertical-align: bottom;
+	height: 112px;
+	float: right;
+	margin-right: 0px;
+	text-align: center;
+}
+
+/*header links*/
+
+#headerLinks
+{
+	margin-right: 102px;
+}
+
+#headerLinks a.hlHome, #headerLinks a.hlCat, #headerLinks a.hlNews, #headerLinks a.hlAds, #headerLinks a.hlAbout, #headerLinks a.hlContact
+{
+	display: block;
+	height: 24px;
+	float: right;
+	font-size: 0px;
+}
+
+#headerLinks a.hlHome
+{
+	width: 65px;
+	background-image: url(../Images/Master/Home.gif);
+}
+
+#headerLinks a.hlHome:hover
+{
+	background-image: url(../Images/Master/HomeH.gif);
+}
+
+#headerLinks a.hlCat
+{
+	width: 52px;
+	background-image: url(../Images/Master/Products.gif);
+}
+
+#headerLinks a.hlCat:hover
+{
+	background-image: url(../Images/Master/ProductsH.gif);
+}
+
+#headerLinks a.hlNews
+{
+	width: 52px;
+	background-image: url(../Images/Master/News.gif);
+}
+
+#headerLinks a.hlNews:hover
+{
+	background-image: url(../Images/Master/NewsH.gif);
+}
+
+#headerLinks a.hlAbout
+{
+	width: 52px;
+	background-image: url(../Images/Master/AboutUs.gif);
+}
+
+#headerLinks a.hlAbout:hover
+{
+	background-image: url(../Images/Master/AboutUsH.gif);
+}
+
+#headerLinks a.hlContact
+{
+	width: 65px;
+	background-image: url(../Images/Master/ContactUs.gif);
+}
+
+#headerLinks a.hlContact:hover
+{
+	background-image: url(../Images/Master/ContactUsH.gif);
+}
+
+/*search box*/
+
+.searchBox
+{
+	width: 185px;
+	margin-top: -7px;
+	margin-right: 14px;
+	border-width: 0px;
+}
+
+.searchBox table
+{
+	background-color: #3c5c9b;
+	border: none;
+	border-width: 0;
+}
+
+.searchBox table td#txt
+{
+	padding: 0 2px 0 2px;
+}
+
+.searchBox table td#btn
+{
+	width: 35px;
+}
+
+.searchTextBox
+{
+	background-color: #3C5C9B;
+	border-color: #E0E0E0;
+	border-style: solid;
+	border-width: 1px;
+	font-family: Tahoma;
+	font-size: 11px;
+	color: White;
+	height: 14px;
+	width: 125px;
+}
+
+/*master page footer*/
+
+#footer
+{
+	width: 970px;
+	background-position: center top;
+	background-image: url(../Images/Master/BottomRepeater.gif);
+	background-repeat: repeat-x;
+	height: 80px;
+	vertical-align: top;
+	margin-top: 0px;
+	text-align: center;
+	line-height: 1.5em;
+	font-size: 12px;
+}
+#footerCenter
+{
+	width: 970px;
+	height: 80px;
+	float: left;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+#footerCenter a
+{
+	color: White;
+}
+
+#bottomMenu
+{
+	color: White;
+}
+
+/*master content*/
+
+.masterContent
+{
+	direction: rtl;
+	text-align: right;
+}

@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ArtmanMarket\", "ArtmanMarket\", "{1B072856-4E91-4DD8-8B49-E63C0B0015D2}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/ArtmanMarket"
+		Debug.AspNetCompiler.PhysicalPath = "ArtmanMarket\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ArtmanMarket\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ArtmanMarket"
+		Release.AspNetCompiler.PhysicalPath = "ArtmanMarket\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ArtmanMarket\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2687"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ArtmanMarketSetup", "ArtmanMarketSetup\ArtmanMarketSetup.vdproj", "{3A75EFAC-61D9-43CF-8CCD-4962BCE67ED7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Release|.NET = Release|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B072856-4E91-4DD8-8B49-E63C0B0015D2}.Debug|.NET.ActiveCfg = Debug|.NET
+		{1B072856-4E91-4DD8-8B49-E63C0B0015D2}.Debug|.NET.Build.0 = Debug|.NET
+		{1B072856-4E91-4DD8-8B49-E63C0B0015D2}.Release|.NET.ActiveCfg = Debug|.NET
+		{1B072856-4E91-4DD8-8B49-E63C0B0015D2}.Release|.NET.Build.0 = Debug|.NET
+		{3A75EFAC-61D9-43CF-8CCD-4962BCE67ED7}.Debug|.NET.ActiveCfg = Debug
+		{3A75EFAC-61D9-43CF-8CCD-4962BCE67ED7}.Release|.NET.ActiveCfg = Release
+		{3A75EFAC-61D9-43CF-8CCD-4962BCE67ED7}.Release|.NET.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
